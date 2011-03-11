@@ -1,0 +1,72 @@
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden}
+.clearfix{display: inline-block}
+* html .clearfix{height: 1%}
+.clearfix{display: block}
+
+/*长宽*/
+.w500{width:500px;}
+.w450{width:450px;}
+.w400{width:400px;}
+.w350{width:300px;}
+.w300{width:300px;}
+.w250{width:250px;}
+.w200{width:200px;}
+.w150{width:150px;}
+.w100{width:100px;}
+.w50{width:50px;}
+.w40{width:40px;}
+.w30{width:30px;}
+.w20{width:20px;}
+.w10{width:10px;}
+.h500{height:500px;}
+.h450{height:450px;}
+.h400{height:400px;}
+.h350{height:350px;}
+.h300{height:300px;}
+.h250{height:250px;}
+.h200{height:200px;}
+.h150{height:150px;}
+.h100{height:100px;}
+.h50{height:50px;}
+.h40{height:40px;}
+.h30{height:30px;}
+.h20{height:20px;}
+.h10{height:10px;}
+
+/*input 样式*/
+.input_text{padding:2px;border:1px solid #CCC;font-size:12px;}
+.input_text:focus{border:1px solid #666;}
+.input_button{
+    background:#FFF8C5 none repeat scroll 0 0;
+    border-color:#FFFDEE #FDB939 #FDB939 #FFFDEE;
+    border-style:solid;
+    border-width:1px;
+    color:#0A0;
+    cursor:pointer;
+    font-size:12px;
+    padding:2px;
+}
+
+/*公共*/
+.b{font-weight:bold;}/**/
+.hide{display:none;}
+.hand{cursor:pointer;}
+.hidden{display:none;}
+/*颜色*/
+.red{color:red;}
+.orange{color:orange;}
+.dorange{color:darkorange;}
+.green{color:green;}
+.blue{color:blue;}
+
+.left{text-align:left;}
+.right{text-align:right;}
+.center{text-align:center;}
+.top{vertical-align:top;}
+.bottom{vertical-align:bottom;}
+.middle{vertical-align:middle;}
+
+.icon_timepicker{
+	height:20px;
+	background:#fff url("../images/icon_clock.gif") no-repeat right;
+}
